@@ -6,6 +6,14 @@ Comics
 
 @section('main-content')
 <h1>
-    comics
+    Comics
 </h1>
+
+<ul class="list-group">
+    @foreach ($comics as $comic)
+        <li class="list-group-item">
+            {{ $comic['title'] }}
+        </li>
+    @endforeach
+</ul>
 @endsection

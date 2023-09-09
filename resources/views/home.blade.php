@@ -2,13 +2,10 @@
 
 @section('page-title', 'Laravel Comics')
 
-
 @section('main-content')
 <h1>
     Homepage
 </h1>
 
-{{-- <div class="gatto"></div>
-
-<img src="{{ Vite::asset('resources/img/gatto.jpg') }}" class="img-fluid" alt=""> --}}
+<a href="{{ route('comics') }}">comics</a>
 @endsection
