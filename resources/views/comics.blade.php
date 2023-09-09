@@ -1,11 +1,11 @@
 @extends('layouts.main')
 
 @section('page-title')
-Contatti
+Comics
 @endsection
 
 @section('main-content')
 <h1>
-    Contatti
+    comics
 </h1>
 @endsection
